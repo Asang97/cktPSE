@@ -41,17 +41,17 @@ This branch represents the **final research version** of the project.
 Additional scientific packages such as `scipy`, `pandas`, and `matplotlib` may be used depending on configuration.
 
 ### Repo Structure
-
+```bash
 ckt_PSE/
-|-- code/
-|   |-- run_solver.py          # Main entry point
-|   |-- testcases/             # RAW network files
-|   `-- scripts/
-|       |-- Solve.py           # Core solver logic
-|       |-- options.py         # Configuration file
-|       `-- IPOPT_workfile.py  # Additional IPOPT settings
-|-- requirements.txt
-`-- README.md
+├── code/
+│   ├── run_solver.py          # Main entry point
+│   ├── testcases/             # RAW network files
+│   └── scripts/
+│       ├── Solve.py           # Core solver logic
+│       ├── options.py         # Configuration file
+│       └── IPOPT_workfile.py  # Additional IPOPT settings
+├── requirements.txt
+└── README.md
 
 
 ### Recommended Installation (Conda)
