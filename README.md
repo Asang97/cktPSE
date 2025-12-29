@@ -52,14 +52,14 @@ ckt_PSE/
 │       └── IPOPT_workfile.py  # Additional IPOPT settings
 ├── requirements.txt
 └── README.md
-
+```bash
 
 ### Recommended Installation (Conda)
 ```bash
 conda create -n cktpse python=3.10 -y
 conda activate cktpse
 conda install -c conda-forge pyomo ipopt numpy -y
-
+```bash
   ## Configuration (`scripts/options.py`)
 
 All major configuration parameters are defined in `scripts/options.py` under a single `OPTIONS` dictionary with the following blocks:
